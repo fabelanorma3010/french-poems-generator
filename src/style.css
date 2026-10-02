@@ -1,66 +1,70 @@
-.body{
-  
-background-color: blue;
-}
- 
-.h1{
-text-align:center;
-font-size: 36px;
-line-height:1.5;
-color: white ;
-
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/181/618/original/Outline-Heart-Bundle-min-1.png?1790889304");
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.container{
-margin:120px auto;
-max-width: 600px;
-
+a {
+  color: #cd1628;
 }
 
-.form{
-padding : 30px;
-box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
-background-color: white;
-border-radius: 10px;
-display: flex;
-margin-bottom: 30px;
-
+.container {
+  margin: 120px auto;
+  max-width: 600px;
 }
 
-.instruction{
-padding: 16px;
-border: 1px solid rgba (39,33,66,10.8);
-width: 80%;
-font-size: 16px;
-border-radius: 30px;
-line-height: 20px;
-color: #272044;
-}
-.submit-button{
-margin-left: 10px;
-background: #885df1;
-color: white;
-border-radius:50px;
-padding:14px 24px;
-font-size: 16px;
-}
-.poem{
-font-size:16px;
-background-color:#ed2a2a;
-padding: 20px;
-line-height: 24px;
-border-left: 3px solid 
-box-shadow: 0px 20px 60px; rgba (65,50,100,0.08);
-border-radius: 10px;
+header {
+  margin-bottom: 30px;
 }
 
-.footer{
-text-align: center;
-font-size: 14px;
-margin-top: 30px;
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #d31a1a;
 }
 
-.a{
-color: red
+form {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #3a3938;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.poem {
+  font-size: 16px;
+  background-color: #f5ecec;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #bd295f;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}

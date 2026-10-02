@@ -2,7 +2,8 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "I love you in every universe",
+    strings:
+      "I love you God , I love you for the love you give me, for your eternal faithfullness ",
     autoStart: true,
     delay: 1,
     cursor: "",
